@@ -149,7 +149,9 @@ a:hover {
 
 
 .hide {
-  transform: translate(502px);
+  transform: translateX(10px);
+  transform: translate(0%, -50%);
+  transition-duration: 1s;
 
   pointer-events: none;
 
